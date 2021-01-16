@@ -24,3 +24,65 @@ nav {
   text-decoration: none;
   color: black;
 }
+.header {
+  padding: 4px;
+  text-align: center;
+  background-color: #1abc9c;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  margin: 10px;
+  margin-top: 50px;
+  position: relative;
+  height: 50vh;
+  width: 50vh;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
+  border-radius: 3px/6px;
+  display: block;
+}
+.box-title {
+  text-align: center;
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+}
+.box-index {
+  position: absolute;
+  right: 0;
+  top: 45vh;
+}
+.box-p {
+  text-align: center;
+  width: 45vh;
+}
+
+.button {
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top:39vh;
+  left:15vh;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #1abc9c;
+}
+.button1:hover {
+  color: white;
+  background-color: #1abc9c;
+}
