@@ -61,9 +61,9 @@ setUser(User);
         <h1>body</h1>
         <p>{post.body}</p>
         <h1>comments</h1>
-        {comments.map(comment=>(
-          <Comment data={comment} />
-        ))}
+     
+          <Comment data={comments} />
+      
 
      </div>
   );

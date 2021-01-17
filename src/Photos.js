@@ -21,7 +21,7 @@ function Photo() {
     setPhotos(photos);
   }
   return (
-<div >
+<div>
   <div className="search-bar">
 <Search change={change}/>
 </div>
@@ -39,7 +39,7 @@ photos.map(photo=>(
       <img src={photo.url} alt="img" className="image"/>
     </div>
     <div className="flip-card-back">
-      <h1>John Doe</h1> 
+      <h1>Secretium</h1> 
       <p>{photo.title}</p> 
       <p>enjoy watching ...</p>
       <p className="index">{photo.id}</p>
@@ -57,7 +57,7 @@ photos.map(photo=>(
       <img src={photo.url} alt="img" className="image"/>
     </div>
     <div className="flip-card-back">
-      <h1>John Doe</h1> 
+      <h1>Secretium</h1> 
       <p>{photo.title}</p> 
       <p>enjoy watching ...</p>
       <p className="index">{photo.id}</p>
