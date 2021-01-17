@@ -9,8 +9,8 @@ function Nav() {
     {/* <img src="src/logo/hbj1993.PNG" alt=""/> */}
       <h3 className="logo">logo</h3>
       <ul className="nav-links">
-          <Link to='/album' className="links">
-          <li>Albums</li>
+          <Link to='/photos' className="links">
+          <li>photos</li>
           </Link>
           
           <Link to='/posts' className="links">
