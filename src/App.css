@@ -1,6 +1,4 @@
-/* .App {
-  text-align: center;
-} */
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -172,39 +170,7 @@ input[type="text"] {
   letter-spacing: 10px;
   text-align: center;
 }
-/* .avatar {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  padding: 10px;
-} */
-/* .comments-img-nm {
-  display: flex;
-  padding-left: 1rem;
-  position: absolute;
-} */
-/* .comments-nm { */
-/* margin: 5px 10px; */
-/* float: left; */
-/* } */
-/* .comments { */
-/* border: 1px solid black; */
-/* display: flex;
-  padding: 20px;
-  flex-wrap: wrap;
-  margin: 10px;
-  position: relative;
-  background: #f2f2f2;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
-  border-radius: 3px/6px;
-  height: 10vh;
-  width: 100vh;
-} */
-/* .cont-nm {
-  border: 1px solid black;
-  position: relative;
-} */
+
 .box-comment {
   margin: 10px;
   margin-top: 50px;

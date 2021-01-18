@@ -9,12 +9,14 @@ function Photo() {
     fetchPhotos()
     console.log(searchedData)
   },[])
+  /* function that can handle any changes when you are typing in the search bar  */
   const change=(event)=> {
     let arr = photos.filter((element) =>
       element.title.includes(event.target.value)
     );
     setSearchedData(arr)
   }
+  /** fetching all photos from the api */
   const fetchPhotos= async ()=>{
     const data= await fetch("https://jsonplaceholder.typicode.com/photos")
     const photos = await data.json();
@@ -29,7 +31,7 @@ function Photo() {
 <div className="container">
  
   
-
+ 
  
 {searchedData.length===0?
 photos.map(photo=>(

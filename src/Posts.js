@@ -10,16 +10,18 @@ function Posts() {
     useEffect(()=>{
         fetchPosts();
     },[])
+  /* function that can handle any changes when you are typing in the search bar  */
     const Onchange=(event)=> {
       let arr = posts.filter((element) =>
         element.title.includes(event.target.value)
       );
       setSearchedData(arr)
     }
+    /** fetching all the posts from the api */
     const fetchPosts=async ()=>{
         const data=await fetch('https://jsonplaceholder.typicode.com/posts')
         const posts=await data.json()
-        console.log('posts=======>',posts)
+      
         setPosts(posts)
 
     }
