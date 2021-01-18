@@ -1,24 +1,24 @@
 # Secretium Internship Tasks
 
-- - This task is made to evaluate which parts of the requirements that the candidats actually fulfil.
+- This task is made to evaluate which parts of the requirements that the candidats actually fulfil.
 
-- - The application fetches data from JsonPlaceholder api that provides the app with "fake data" i create a navbar that allow me
+- The application fetches data from JsonPlaceholder api that provides the app with "fake data" i create a navbar that allow me
 
 to pass from page to other page using react-router :
 
-- - '/': 4 pictures that define secretuim.
+- '/': 4 pictures that define secretuim.
 
-- - '/post': contains all posts and each post take you to other details, and you can search a specific post using a dynamic search-bar .
+- '/post': contains all posts and each post take you to other details, and you can search a specific post using a dynamic search-bar .
 
-- - '/photos':contains all photos and when you hover on the photo it will flip and you will find all the details , and of course you can
+- '/photos':contains all photos and when you hover on the photo it will flip and you will find all the details , and of course you can
 
 search a specific photo using the dynamic search-bar .
 
-- - I create a small function in the component comment that extract the name of the specific person .
+- I create a small function in the component comment that extract the name of the specific person .
 
-- - For the components i have followed the planning that you requested.
+- For the components i have followed the planning that you requested.
 
-- - For the branches i create 4 branches but it is not divided according to features .
+- For the branches i create 4 branches but it is not divided according to features .
 
 ## Available Scripts
 
