@@ -10,7 +10,11 @@ to pass from page to other page using react-router :
 
 '/post': contains all posts and each post take you to other details, and you can search a specific post using a dynamic search-bar .
 
+ allmostDone
 '/photos':contains all photos and when you hover on the photo it will flip and  you will find all the details , and of course you can search a 
+
+'/photos':contains all photos and when you hover on the photo it will flip and you will find all the details , and of course you can search a
+ posts
 
 specific photo using the dynamic search-bar .
 
@@ -18,7 +22,13 @@ i create a small function in the component comment that extract the name of the 
 
 for the components i have followed the planning that you requested.
 
+allmostDone
+
 for the branches i create 4 branches  but it is not divided according to features .
+
+for the branches i create 4 branches but it is not divided according to features .
+
+posts
 
 ## Available Scripts
 
