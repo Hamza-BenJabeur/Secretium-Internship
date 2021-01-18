@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
 import './App.css';
 import {Link} from 'react-router-dom'
-import Search from './Search';
+import {SearchPosts} from './Search';
 
 function Posts() {
     const  [posts,setPosts]=useState([]);
@@ -26,7 +26,7 @@ function Posts() {
   return (
     <div>
     <div className="search-bar">
-  <Search Onchange={Onchange}/>
+  <SearchPosts Onchange={Onchange}/>
   </div>
     <div className="container">
 
@@ -39,7 +39,7 @@ function Posts() {
          more details +
         </Link>
         </button>
-      <p class="box-index">post {post.id}</p>
+      <p class="box-index">post n° {post.id}</p>
      </div>
 
   )):searchedData.map(post=>(
@@ -50,7 +50,7 @@ function Posts() {
      more details +
     </Link>
     </button>
-  <p class="box-index">post {post.id}</p>
+  <p class="box-index">post n° {post.id}</p>
  </div>
   ))}
 

@@ -53,14 +53,28 @@ setUser(User);
 
   return (
 
-    <div className="App">
-        <h1>username</h1>
+    <div>
+        {/* <h1>username</h1>
         <p>{User.username}</p>
         <h1>title</h1>
         <p>{post.title}</p>
         <h1>body</h1>
         <p>{post.body}</p>
-        <h1>comments</h1>
+        <h1>comments</h1> */}
+        <div className="container">
+        <div className="box-informations">
+          <div className="box-info1">
+            <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="" className="box-img"/>
+            <h1 className="box-name">{User.name}</h1>
+          </div>
+          <div className="container">
+            <div className="box-info2">
+              <h3 className="box-text-title">{post.title} </h3>
+              <p>{post.body}</p>
+          </div>
+            </div>
+        </div>
+        </div>
      
           <Comment data={comments} />
       

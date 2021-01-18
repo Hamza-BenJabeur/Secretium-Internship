@@ -1,12 +1,13 @@
 import './App.css';
 import {useEffect,useState} from 'react';
-import Search from './Search';
+import SearchImages from './Search';
 function Photo() {
 
   const [photos,setPhotos]=useState([]);
   const [searchedData,setSearchedData]=useState([]);
   useEffect(()=>{
     fetchPhotos()
+    console.log(searchedData)
   },[])
   const change=(event)=> {
     let arr = photos.filter((element) =>
@@ -23,7 +24,7 @@ function Photo() {
   return (
 <div>
   <div className="search-bar">
-<Search change={change}/>
+<SearchImages change={change}/>
 </div>
 <div className="container">
  
