@@ -20,6 +20,15 @@ search a specific photo using the dynamic search-bar .
 
 - For the branches i create 4 branches but it is not divided according to features .
 
+## Install
+
+- nodejs
+- npm
+
+## First step
+
+- npm install
+
 ## Available Scripts
 
 In the project directory, you can run:
