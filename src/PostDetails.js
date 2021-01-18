@@ -17,7 +17,7 @@ console.log(match);
     const  [User,setUser]=useState({});
 
     const  [comments,setComments]=useState([]);
-
+/** fetching a specefic post from api using params that is provided by Link */
     const fetchPost=async()=>{
 
 const fetchPost=await fetch(`https://jsonplaceholder.typicode.com/posts/${match.params.id}`)
@@ -28,6 +28,8 @@ console.log(post)
 
 setPost(post);
     }
+/** fetching  comments for a specefic post from api using params */
+
     const fetchComments=async()=>{
 
 const fetchComments=await fetch(`https://jsonplaceholder.typicode.com/comments?postId=${match.params.id}`)
@@ -38,6 +40,7 @@ console.log(comments)
 
 setComments(comments);
     }
+    /** fetching a specefic user from api using params */
     const fetchUser=async()=>{
 
 const fetchUser=await fetch(`https://jsonplaceholder.typicode.com/users/${match.params.userId}`)
@@ -54,13 +57,6 @@ setUser(User);
   return (
 
     <div>
-        {/* <h1>username</h1>
-        <p>{User.username}</p>
-        <h1>title</h1>
-        <p>{post.title}</p>
-        <h1>body</h1>
-        <p>{post.body}</p>
-        <h1>comments</h1> */}
         <div className="container">
         <div className="box-informations">
           <div className="box-info1">
